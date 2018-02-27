@@ -18,8 +18,8 @@ contract TOO  {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
    
     function TOO() public {
-        balances[msg.sender] = 860000000000;               // Give the creator all initial tokens
-        totalSupply = 860000000000;                        // Update total supply
+        balances[msg.sender] = 660000000000;               // Give the creator all initial tokens
+        totalSupply = 660000000000;                        // Update total supply
         name = "TOO Coin";                                   // Set the name for display purposes
         decimals =4;                            // Amount of decimals for display purposes
         symbol = "TOO";                               // Set the symbol for display purposes
